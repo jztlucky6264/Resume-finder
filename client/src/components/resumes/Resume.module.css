@@ -1,0 +1,53 @@
+.main_wrapper {
+  /* background-image: linear-gradient(85deg, #e0e0e0, #b0bec5); */
+
+  background-color: #f2f8ff;
+}
+.img_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_wrapper {
+  width: 100%;
+}
+.Clg_name {
+  color: rgb(60, 98, 99);
+  font-size: 15px;
+  font-weight: 700;
+}
+:hover.Clg_name {
+  color: rgb(101, 170, 170);
+}
+.Name {
+  font-size: 20px;
+  font-weight: bold;
+}
+:hover.Name {
+  color: cadetblue;
+}
+.company {
+  color: rgb(172, 150, 150);
+}
+
+.btn,
+.btn:visited {
+  text-decoration: none;
+  padding: 0.7rem 0.5rem;
+  border: 1px solid #333;
+  color: #333;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 3px;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+
+:hover.btn {
+  background: #333;
+  border: 1px solid #333;
+  color: #fefefe;
+  border-radius: 30px;
+}
