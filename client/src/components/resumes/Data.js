@@ -49,7 +49,7 @@ export const ResumesFiles = [
   {
     id: "4",
     Name: "Deependar",
-    file: "#",
+    file: "componet",
     company: "Morgan stanley",
     clg: "AIACTR",
     image: (

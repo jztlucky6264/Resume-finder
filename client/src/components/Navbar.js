@@ -1,71 +1,23 @@
-import React, { useContext } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { NavLink } from "react-router-dom";
-import { UserContext } from "../App";
 import resume_logo from "../img/resume_logo.png";
 const Navbar = () => {
-  const { state, dispatch } = useContext(UserContext);
-  console.log(dispatch);
   const RenderMenu = () => {
-    if (state) {
-      return (
-        <>
-          <li className="nav-item  ms-2  active">
-            <NavLink className="nav-link" to="/">
-              Home
-            </NavLink>
-          </li>
-          <li className="nav-item ms-2">
-            <NavLink className="nav-link" to="/resume">
-              Resumes
-            </NavLink>
-          </li>
-
-          <li className="nav-item ms-2">
-            <NavLink className="nav-link" to="/contact">
-              Contact
-            </NavLink>
-          </li>
-
-          <li className="nav-item ms-2">
-            <NavLink className="nav-link" to="/logout">
-              Logout
-            </NavLink>
-          </li>
-        </>
-      );
-    } else {
-      return (
-        <>
-          <li className="nav-item ms-2  active">
-            <NavLink className="nav-link" to="/">
-              Home
-            </NavLink>
-          </li>
-          <li className="nav-item ms-2">
-            <NavLink className="nav-link" to="/resume">
-              Resumes
-            </NavLink>
-          </li>
-
-          <li className="nav-item ms-2">
-            <NavLink className="nav-link" to="/contact">
-              Contact
-            </NavLink>
-          </li>
-          <li className="nav-item ms-2">
-            <NavLink className="nav-link" to="/login">
-              Login
-            </NavLink>
-          </li>
-          <li className="nav-item ms-2">
-            <NavLink className="nav-link" to="/signup">
-              Registration
-            </NavLink>
-          </li>
-        </>
-      );
-    }
+    return (
+      <>
+        <li className="nav-item  ms-2  active">
+          <NavLink className="nav-link" to="/">
+            Home
+          </NavLink>
+        </li>
+        <li className="nav-item ms-2">
+          <NavLink className="nav-link" to="/resume">
+            Resumes
+          </NavLink>
+        </li>
+      </>
+    );
   };
 
   return (
