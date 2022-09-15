@@ -82,7 +82,7 @@ const Resume = () => {
                   <p className={styles.Clg_name}>{client.clg}</p>
                   <p className={styles.company}>{client.company}</p>
 
-                  <a className={styles.btn}>{client.file}</a>
+                  {client.file}
                 </div>
               </div>
             ))}

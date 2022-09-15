@@ -3,17 +3,13 @@ import Deepandar_singh from "./UsersResumes/DeependraSingh.pdf";
 import Deepandar_pic from "./Images/DeepandarPic.jpeg";
 import Deepak_pic from "./Images/Deepak_pic.jpeg";
 import styles from "./Resume.module.css";
+import Errorpage from "../Errorpage";
 export const ResumesFiles = [
   {
     id: "1",
     Name: "Deependar Singh",
     file: (
-      <a
-        href={Deepandar_singh}
-        className={styles.btn}
-        color="transparent"
-        download="Durga's Resume"
-      >
+      <a href="/not_found" className={styles.btn}>
         View Resume
       </a>
     ),
@@ -35,7 +31,7 @@ export const ResumesFiles = [
         href={Deepandar_singh}
         className={styles.btn}
         color="transparent"
-        download="Durga's Resume"
+        download="Demo resume"
       >
         View Resume
       </a>
@@ -58,7 +54,7 @@ export const ResumesFiles = [
         href={Deepandar_singh}
         className={styles.btn}
         color="transparent"
-        download="Durga's Resume"
+        download="Demo resume"
       >
         View Resume
       </a>
@@ -81,7 +77,7 @@ export const ResumesFiles = [
         href={Deepandar_singh}
         className={styles.btn}
         color="transparent"
-        download="Durga's Resume"
+        download="Demo resume"
       >
         View Resume
       </a>
@@ -104,7 +100,7 @@ export const ResumesFiles = [
         href={Deepandar_singh}
         className={styles.btn}
         color="transparent"
-        download="Durga's Resume"
+        download="Demo resume"
       >
         View Resume
       </a>
@@ -127,7 +123,7 @@ export const ResumesFiles = [
         href={Deepandar_singh}
         className={styles.btn}
         color="transparent"
-        download="Durga's Resume"
+        download="Demo resume"
       >
         View Resume
       </a>
@@ -150,7 +146,7 @@ export const ResumesFiles = [
         href={Deepandar_singh}
         className={styles.btn}
         color="transparent"
-        download="Durga's Resume"
+        download="Demo resume"
       >
         View Resume
       </a>
@@ -173,7 +169,7 @@ export const ResumesFiles = [
         href={Deepandar_singh}
         className={styles.btn}
         color="transparent"
-        download="Durga's Resume"
+        download="Demo resume"
       >
         View Resume
       </a>
@@ -196,7 +192,7 @@ export const ResumesFiles = [
         href={Deepandar_singh}
         className={styles.btn}
         color="transparent"
-        download="Durga's Resume"
+        download="Demo resume"
       >
         View Resume
       </a>
