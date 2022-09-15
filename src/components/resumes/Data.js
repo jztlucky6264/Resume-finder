@@ -2,12 +2,21 @@ import Deepandar_singh from "./UsersResumes/DeependraSingh.pdf";
 
 import Deepandar_pic from "./Images/DeepandarPic.jpeg";
 import Deepak_pic from "./Images/Deepak_pic.jpeg";
-
+import styles from "./Resume.module.css";
 export const ResumesFiles = [
   {
     id: "1",
     Name: "Deependar Singh",
-    file: { Deepandar_singh },
+    file: (
+      <a
+        href={Deepandar_singh}
+        className={styles.btn}
+        color="transparent"
+        download="Durga's Resume"
+      >
+        View Resume
+      </a>
+    ),
     company: "fresher",
     clg: "VIT",
     image: (
@@ -21,7 +30,16 @@ export const ResumesFiles = [
   {
     id: "2",
     Name: "Deependar",
-    file: "#",
+    file: (
+      <a
+        href={Deepandar_singh}
+        className={styles.btn}
+        color="transparent"
+        download="Durga's Resume"
+      >
+        View Resume
+      </a>
+    ),
     company: "Morgan stanley",
     clg: "AIACTR",
     image: (
@@ -35,7 +53,16 @@ export const ResumesFiles = [
   {
     id: "3",
     Name: "Deependar",
-    file: "#",
+    file: (
+      <a
+        href={Deepandar_singh}
+        className={styles.btn}
+        color="transparent"
+        download="Durga's Resume"
+      >
+        View Resume
+      </a>
+    ),
     company: "Morgan stanley",
     clg: "AIACTR",
     image: (
@@ -49,7 +76,16 @@ export const ResumesFiles = [
   {
     id: "4",
     Name: "Deependar",
-    file: "componet",
+    file: (
+      <a
+        href={Deepandar_singh}
+        className={styles.btn}
+        color="transparent"
+        download="Durga's Resume"
+      >
+        View Resume
+      </a>
+    ),
     company: "Morgan stanley",
     clg: "AIACTR",
     image: (
@@ -63,7 +99,16 @@ export const ResumesFiles = [
   {
     id: "5",
     Name: "Deependar",
-    file: "#",
+    file: (
+      <a
+        href={Deepandar_singh}
+        className={styles.btn}
+        color="transparent"
+        download="Durga's Resume"
+      >
+        View Resume
+      </a>
+    ),
     company: "Morgan stanley",
     clg: "AIACTR",
     image: (
@@ -77,7 +122,16 @@ export const ResumesFiles = [
   {
     id: "6",
     Name: "Deependar",
-    file: "#",
+    file: (
+      <a
+        href={Deepandar_singh}
+        className={styles.btn}
+        color="transparent"
+        download="Durga's Resume"
+      >
+        View Resume
+      </a>
+    ),
     company: "Morgan stanley",
     clg: "AIACTR",
     image: (
@@ -91,7 +145,16 @@ export const ResumesFiles = [
   {
     id: "7",
     Name: "Deependar",
-    file: "#",
+    file: (
+      <a
+        href={Deepandar_singh}
+        className={styles.btn}
+        color="transparent"
+        download="Durga's Resume"
+      >
+        View Resume
+      </a>
+    ),
     company: "Morgan stanley",
     clg: "AIACTR",
     image: (
@@ -105,7 +168,16 @@ export const ResumesFiles = [
   {
     id: "8",
     Name: "Deependar",
-    file: "#",
+    file: (
+      <a
+        href={Deepandar_singh}
+        className={styles.btn}
+        color="transparent"
+        download="Durga's Resume"
+      >
+        View Resume
+      </a>
+    ),
     company: "Morgan stanley",
     clg: "AIACTR",
     image: (
@@ -119,7 +191,16 @@ export const ResumesFiles = [
   {
     id: "9",
     Name: "Deepu",
-    file: "#",
+    file: (
+      <a
+        href={Deepandar_singh}
+        className={styles.btn}
+        color="transparent"
+        download="Durga's Resume"
+      >
+        View Resume
+      </a>
+    ),
     company: "MicroSoft",
     clg: "AIACTR",
     image: (

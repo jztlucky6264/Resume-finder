@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg fixed-top navbar-light">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
             <div className="img_div">

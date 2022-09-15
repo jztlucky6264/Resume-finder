@@ -5,11 +5,11 @@ import styles from "./Resume.module.css";
 const tagOptions = [
   {
     id: 1,
-    key: "AIACTR",
+    key: "ALL",
   },
   {
     id: 2,
-    key: "MIT",
+    key: "AIACTR",
   },
   {
     id: 3,
@@ -64,7 +64,7 @@ const Resume = () => {
                   val.Name.toLowerCase().includes(searchName.toLowerCase()))
               ) {
                 return val;
-              }
+              } else if (searchClg == "ALL") return val;
             }).map((client) => (
               <div
                 key={client.id}
@@ -82,9 +82,7 @@ const Resume = () => {
                   <p className={styles.Clg_name}>{client.clg}</p>
                   <p className={styles.company}>{client.company}</p>
 
-                  <a href={client.file} className={styles.btn}>
-                    View Resume
-                  </a>
+                  <a className={styles.btn}>{client.file}</a>
                 </div>
               </div>
             ))}
